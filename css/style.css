@@ -1,0 +1,79 @@
+/* Unified styling and thematic design */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f4f8;
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 20px auto;
+  width: 80%;
+  max-width: 800px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+  font-variant-numeric: tabular-nums;
+}
+
+th {
+  background-color: #3498db;
+  color: white;
+  cursor: pointer;
+  user-select: none;
+  transition: background-color 0.3s ease;
+}
+
+th:hover {
+  background-color: #2980b9;
+}
+
+button {
+  display: inline-block;
+  margin: 10px 5px;
+  padding: 10px 20px;
+  background-color: #3498db;
+  border: none;
+  color: white;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.controls {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: 600;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+input[type="number"] {
+  width: 50px;
+  padding: 5px;
+  margin-left: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
